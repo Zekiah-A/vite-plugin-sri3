@@ -1,37 +1,40 @@
 {
-  "name": "vite-plugin-sri3",
-  "version": "1.0.6",
-  "description": "Subresource Integrity in Vite",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
-  ],
-  "scripts": {
-    "build": "tsc -p tsconfig.json"
-  },
-  "keywords": [
-    "vite",
-    "sri",
-    "integrity"
-  ],
-  "author": "yoyo930021@gmail.com",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yoyo930021/vite-plugin-sri3.git"
-  },
-  "devDependencies": {
-    "@types/node": "^20.10.1",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.4"
-  },
-  "peerDependencies": {
-    "vite": "^2 || ^3 || ^4 || ^5 || ^6 || ^7"
-  }
+	"name": "vite-plugin-sri3",
+	"version": "1.0.6",
+	"description": "Subresource Integrity (SRI) in Vite with crossorigin customisation and selective application",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"files": [
+		"dist",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"prepare": "npm run build"
+	},
+	"keywords": [
+		"vite",
+		"sri",
+		"integrity",
+		"crossorigin",
+		"security"
+	],
+	"author": "yoyo930021@gmail.com",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yoyo930021/vite-plugin-sri3.git"
+	},
+	"devDependencies": {
+		"@types/node": "^20.10.1",
+		"typescript": "^5.3.2",
+		"vite": "^5.0.4"
+	},
+	"peerDependencies": {
+		"vite": "^2 || ^3 || ^4 || ^5 || ^6 || ^7"
+	}
 }
